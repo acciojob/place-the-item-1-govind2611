@@ -1,2 +1,27 @@
+.container {
+ 
+    display: flex ; 
+    flex-direction: row ;
+    flex-wrap: wrap;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+}
+ body{
+    margin-top: 0 ;
+}
+.item2 {
+    padding: 30px;
+    margin: 2px;
+    background-color: red ;
+}
+.item1 {
+    padding: 30px;
+    margin: 2px;
+    background-color: green ;
+}
+.item3 {
+    padding: 30px;
+    margin: 2px;
+    background-color: blue ;
+}
 
-/* Your CSS Code here. */
