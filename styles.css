@@ -1,10 +1,7 @@
 .container {
- 
     display: flex ; 
-    flex-direction: row ;
-    flex-wrap: wrap;
-    flex-flow: row wrap ;
-    justify-content:space-between;
+    flex-direction: row;
+    flex-flow: row wrap;
 }
  body{
     margin-top: 0 ;
@@ -12,7 +9,7 @@
 .item2 {
     padding: 30px;
     margin: 2px;
-    background-color: red ;
+    background-color: red;
 }
 .item1 {
     padding: 30px;
