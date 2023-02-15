@@ -1,24 +1,24 @@
-.container {
-    display: flex ; 
-    flex-direction: row;
-    flex-flow: row wrap;
+/* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
- body{
-    margin-top: 0 ;
+.three{
+	height:80px;
+	width:80px;
+	background-color:green;
+	font-size:40px;
 }
-.item2 {
-    padding: 30px;
-    margin: 2px;
-    background-color: red;
+.two{
+	height:80px;
+	width:80px;
+	background-color:blue;
+	font-size:40px;
 }
-.item1 {
-    padding: 30px;
-    margin: 2px;
-    background-color: green ;
+.one{
+	height:80px;
+	width:80px;
+	background-color:red;
+	font-size:40px;
 }
-.item3 {
-    padding: 30px;
-    margin: 2px;
-    background-color: blue ;
-}
-
